@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    .flexbox-container {  /*instead of creating another div, we can directly apply this in body of HTML */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .grid-container {
+      display: grid;
+      background-color: black;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
+    }
+
+    .red {
+      background-color: #E72F24;
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .black {
+      background-color: #232629;
+    }
+
+    .blue {
+      background-color: #004592;
+      border-bottom: solid black 10px;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+    }
+
+    .item2 {
+      grid-column: span 3;
+    }
+
+    .item3 {
+      grid-row: span 2;
+    }
+
+    .item4 {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .item6 {
+      grid-row: span 2;
+      
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  <div class="flexbox-container"> <!-- instead of creating another div, we can directly apply this in body of HTML -->
+    <div class="grid-container"> 
+      <div class="red item1"></div>
+      <div class="white item2"></div>
+      <div class="white item3"></div>
+      <div class="white item4"></div>
+      <div class="blue item5"></div>
+      <div class="white item6"></div>
+      <div class="white item7"></div>
+      <div class="yellow item8"></div>
+      <div class="black item9"></div>
+    </div>
+  </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+}
+body, .album, .hobby-icon {
+    background-color: #E5E0FF;
+}
+.contact-bg {
+    background-image: url(./assets/images/bg.png);
+    
+}
+
+.section-title {
+    color: #FFF2F2;
+    background-color: #7286D3;
+    padding-left: 15px;
+    font-family: 'Noto Serif', serif;
+}
+
+.profile-img {
+    border: solid #FFC8C8 5px;
+    border-radius: 50%;
+}
+
+.light-txt {
+    color: #FFF2F2;
+}
+
+.project-name {
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #7286D3;
+}
+
+.project-img {
+    height: 225px;
+    padding: 5px;
+    background-color: #FFF2F2;
+}
+
+.card-body {
+    background-color: #FFF2F2;  
+}
+
+.pink-bg {
+    background-color: #FFF2F2;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+ #head {
+    background-image: url(./assets/images/bg2.png);
+}
+
+.contact-txt {
+    color: #7286D3;
+    background-color: #fff2f263;
+}
+
+.title {
+    font-family: 'Noto Serif', serif;
+    color: #FFF2F2;
+}
+
+.subheading {
+    font-family: 'Noto Serif', serif;
+    font-weight: lighter;
+}
+
+#footer {
+    background-color: #7286D3;
+}
