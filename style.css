@@ -1,78 +1,93 @@
-* {
-    font-family: 'Inclusive Sans', sans-serif;
+:root {
+  --primary-color: #a32838;
+  --secondary-color: #3f6bc4;
+  --text-color: #fff2f2;
 }
-body, .album, .hobby-icon {
-    background-color: #E5E0FF;
+
+* {
+  font-family: "Inclusive Sans", sans-serif;
+}
+body,
+.album,
+.hobby-icon {
+  background-color: var(--primary-color);
+  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+}
+.nav-link {
+  color: var(--text-color) !important;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-size: large;
 }
 .contact-bg {
-    background-image: url(./assets/images/bg.png);
-    
+  background-image: url(./assets/images/bg.png);
 }
 
 .section-title {
-    color: #FFF2F2;
-    background-color: #7286D3;
-    padding-left: 15px;
-    font-family: 'Noto Serif', serif;
+  color: #fff2f2;
+  background-color: #3f6bc4;
+  padding: 15px;
+  font-family: "Noto Serif", serif;
+  background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
 }
 
 .profile-img {
-    border: solid #FFC8C8 5px;
-    border-radius: 50%;
+  border: solid #ffc8c8 5px;
+  border-radius: 50%;
 }
 
 .light-txt {
-    color: #FFF2F2;
+  color: var(--text-color);
 }
 
 .project-name {
-    font-size: larger;
-    font-weight: bold;
-    border-radius: 5%;
-    padding: 5px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5%;
+  padding: 5px;
 }
 
 .project-link {
-    text-decoration: none;
-    color: #7286D3;
+  text-decoration: none;
+  color: #7286d3;
 }
 
 .project-img {
-    height: 225px;
-    padding: 5px;
-    background-color: #FFF2F2;
+  height: 225px;
+  padding: 5px;
+  background-color: #fff2f2;
 }
 
 .card-body {
-    background-color: #FFF2F2;  
+  background-color: #fff2f2;
 }
 
 .pink-bg {
-    background-color: #FFF2F2;
-    padding: 10px;
-    border-radius: 5%;
+  background-color: #fff2f2;
+  padding: 10px;
+  border-radius: 5%;
 }
 
- #head {
-    background-image: url(./assets/images/bg2.png);
+#head {
+  background-image: url(./assets/images/bg2.png);
 }
 
 .contact-txt {
-    color: #7286D3;
-    background-color: #fff2f263;
+  color: #7286d3;
+  background-color: #fff2f263;
 }
 
 .title {
-    font-family: 'Noto Serif', serif;
-    color: #FFF2F2;
+  font-family: "Noto Serif", serif;
+  color: var(--text-color);
 }
 
 .subheading {
-    font-family: 'Noto Serif', serif;
-    font-weight: lighter;
-    color:#7286D3;
+  font-family: "Noto Serif", serif;
+  color: black !important;
 }
 
 #footer {
-    background-color: #7286D3;
+  background-color: #3f6bc4;
+  background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
 }
