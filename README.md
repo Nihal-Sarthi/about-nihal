@@ -50,7 +50,7 @@ The website is fully responsive and designed to provide a seamless experience ac
 
 ## Live Demo
 
-You can view the live version of the website here: [Nihal Sarthi Portfolio](https://nihal-sarthi.github.io)
+You can view the live version of the website here: [Nihal Sarthi Portfolio](https://nihal-sarthi.github.io/about-nihal/)
 
 ---
 
